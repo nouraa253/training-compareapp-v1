@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 LABEL Description="The goal of this image is to make understanding Dockerfile instructions easier."
-MAINTAINER "Basma Oueslati"
+MAINTAINER "Nora Sultan"
 ARG FLAGS="-q -y"
 RUN apt-get update -y
 RUN apt-get install ${FLAGS} openjdk-11-jdk
